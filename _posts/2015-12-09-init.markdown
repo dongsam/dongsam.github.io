@@ -1,0 +1,16 @@
+---
+layout: post
+title: "hello world"
+description: "first init posting"
+category: blog
+tags: [blog, github, pages]
+---
+
+<div id="toc"><p class="toc_title">목차</p></div>
+
+## 포스팅 테스트
+- 안녕하세요 
+- 반갑습니다.
+
+## 소스 삽입 테스트
+<script src="https://gist.github.com/dongsam/e7481b4ec7d5cf18fc60.js"></script>
