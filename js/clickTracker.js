@@ -47,12 +47,14 @@ $(document).ready(function() {
 			var spend_time = Date.now() - loaded
 			click_data = handleEvent(window.event);
 			// var data= 'link=' + $(this).attr("href") + '&spend_time=' + spend_time + '&timestamp=' + Date.now()
+            var now = new Date();
+            var now_ISO = now.toISOString();
 			var json_data = {
 				token: token,
 				current_page: window.location.href,
 				link: $(this).attr("href"),
-				spend_time: Date.now() - loaded,
-				timestamp: Date.now(),
+				spend_time: spend_time,
+				timestamp: now_ISO,
 				x : click_data["pageX"],
 				y : click_data["pageY"],
 				user_agent : navigator.userAgent
@@ -62,10 +64,18 @@ $(document).ready(function() {
 				dataType: 'json',
 				url: 'http://administrator.co.kr:9999',
 				data: json_data,
-				complete: function(){
-				//now do the redirect
+                success : function(){
+                    //now do the redirect
 					window.location = json_data["link"]
-				}
+                },
+				complete: function(){
+				    //now do the redirect
+					window.location = json_data["link"]
+				},
+                error : function(xhr, status, error) {
+                    //now do the redirect
+					window.location = json_data["link"]
+                }
 			});
 		}
 	});
