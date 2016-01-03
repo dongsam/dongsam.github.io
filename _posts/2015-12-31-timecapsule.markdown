@@ -6,6 +6,8 @@ category: server
 tags: [ubuntu, airport, timecapsule, 에어포트, 타임캡슐, samba, cifs]
 ---
 <div id="toc"><p class="toc_title">contents</p></div>
+
+
 ## background
 Apple의 AirPort Time Capsule 을 타임머신 백업, NAS용으로 쓰다가, 
 백업 파일의 용량이 점점 커짐에 따라 NAS용으로 쓰던 데이터들을 Ubuntu 서버로 옮길 일이 생겼습니다.
