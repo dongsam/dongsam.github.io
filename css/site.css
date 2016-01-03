@@ -14,8 +14,27 @@
 * {
   margin: 0;
   padding: 0;
-  font-size: 98%;
+  font-size: 98.3%;
 }
+
+img {
+  border-radius: 7px;
+}
+
+/* hide disqus footer(http://stackoverflow.com/questions/20633406/how-to-remove-disqus-footer-from-webpage) */
+#disqus_thread {
+     position: relative;
+}
+#disqus_thread:after {
+     content: "";
+     display: block;
+     height: 55px;
+     width: 100%;
+     position: absolute;
+     bottom: 0;
+     background: white;
+}
+
 
 ul {
   padding-left: 1.5em;
