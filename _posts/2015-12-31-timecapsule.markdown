@@ -3,6 +3,7 @@ layout: post
 title: "Connect to Apple airport Time Capsule from Ubuntu"
 description: "Connect to Apple airport Time Capsule from Ubuntu"
 category: server
+thumbnail: http://i.imgur.com/io66m72.png
 tags: [ubuntu, airport, timecapsule, 에어포트, 타임캡슐, samba, cifs]
 ---
 <div id="toc"><p class="toc_title">contents</p></div>
