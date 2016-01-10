@@ -3,7 +3,7 @@ safe: true
 highlighter: pygments
 lsi: false
 
-permalink: pretty
+permalink: /:title
 
 # markdown:     kramdown
 markdown:     redcarpet
@@ -37,6 +37,12 @@ gems:
   - jemoji
 
 paginate: 10
+
+title: dongsamb.com
+url: http://dongsamb.com
+locale: ko_KR
+avatar: /images/dongsamb.png
+fb_admins: http://facebook.com/dongsam
 
 author:
     facebook: dongsam

@@ -24,7 +24,9 @@
     <link rel="alternate" hreflang="en" href="/" />
   {% endif %} -->
 
-  <!-- <script src="//load.sumome.com/" data-sumo-site-id="dddbf0c343256757114aae302beff42fe1881da466f245b4369b4ba617fed69c" async="async"></script> -->
+  <!-- <script src="//load.sumome.com/" data-sumo-site-id="" async="async"></script> -->
+
+  {% include opengraph.html %}
 
   {{ page.extra_head }}
 </head>
@@ -76,12 +78,21 @@
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    // ga('create', 'UA-42615434-1', 'dongsam.github.io');
+    // ga('create', 'UA-42615434-1', 'dongsamb.com');
     // ga('send', 'pageview');
   </script>
   <!-- TOC Generator -->
   <script>
      $('#toc').toc({exclude: 'h1, h6', autoId: true});
   </script>
+
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>
