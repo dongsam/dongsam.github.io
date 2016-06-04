@@ -1,16 +1,24 @@
 ---
 layout: post
-title: "hello world"
-description: "first init posting"
+title: "Manifesto for Agile Software Development"
+description: "Manifesto for Agile Software Development"
 category: blog
-tags: [blog, github, pages]
+tags: [Agile, Devops]
 ---
+## Manifesto for Agile Software Development
 
-<div id="toc"><p class="toc_title">목차</p></div>
+We are uncovering better ways of developing
+software by doing it and helping others do it.
+Through this work we have come to value:
 
-## 포스팅 테스트
-- 안녕하세요 
-- 반갑습니다.
+- **Individuals and interactions** over processes and tools
+- **Working software** over comprehensive documentation
+- **Customer collaboration** over contract negotiation
+- **Responding to change** over following a plan
 
-## 소스 삽입 테스트
-<script src="https://gist.github.com/dongsam/e7481b4ec7d5cf18fc60.js"></script>
+That is, while there is value in the items on
+the right, we value the items on the left more.
+
+
+<!-- ## 소스 삽입 테스트
+<script src="https://gist.github.com/dongsam/e7481b4ec7d5cf18fc60.js"></script> -->
