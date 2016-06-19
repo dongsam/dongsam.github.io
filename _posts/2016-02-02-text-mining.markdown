@@ -3,7 +3,7 @@ layout: post
 title: "Text Mining using Deep Learning"
 description: "Word2Vec, Doc2Vec, Gensim, etc"
 category: NLP
-tags: [NLP, text mining, deep learning, gensim, python]
+tags: [NLP, text mining, deep-learning, gensim, python]
 ---
 <div id="toc"><p class="toc_title">목차</p></div>
 

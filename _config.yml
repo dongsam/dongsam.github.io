@@ -1,12 +1,27 @@
 # Oveerriden by GitHub Pages: https://help.github.com/articles/using-jekyll-with-pages#configuring-jekyll
 safe: true
-highlighter: pygments
 lsi: false
 
 permalink: /:title/
 
-# markdown:     kramdown
-markdown:     redcarpet
+gems: [jekyll-paginate, jekyll-gist, jemoji]
+
+# gems:
+#   - jekyll-paginate
+#   - github-pages
+#   - jekyll-gist
+#   - jemoji
+
+
+
+highlighter: pygments
+paginate: 5
+paginate_path: "page:num"
+
+
+
+markdown:     kramdown
+# markdown:     redcarpet
 
 # redcarpet:
 #   extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
@@ -23,20 +38,19 @@ redcarpet:
       - smart
 
 kramdown:
+  input: GFM
   auto_ids:       true
   footnote_nr:    1
   entity_output:  as_char
   toc_levels:     1..6
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+  enable_coderay: true
+  default_lang: python
+  syntax_highlighter: rouge
+  
 
 # redcarpet:
 #    extensions: ["smart"]
-
-gems:
-  - jemoji
-
-paginate: 10
 
 title: dongsamb.com
 url: http://dongsamb.com
