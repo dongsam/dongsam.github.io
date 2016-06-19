@@ -4,38 +4,23 @@ lsi: false
 
 permalink: /:title/
 
-gems: [jekyll-paginate, jekyll-gist, jemoji]
 
-# gems:
-#   - jekyll-paginate
-#   - github-pages
-#   - jekyll-gist
-#   - jemoji
-
+gems:
+  - jekyll-paginate
+  - github-pages
+  - jekyll-gist
+  - jemoji
 
 
-highlighter: pygments
 paginate: 5
 paginate_path: "page:num"
 
 
 
 markdown:     kramdown
-# markdown:     redcarpet
 
-# redcarpet:
-#   extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
-redcarpet:
-    extensions: 
-      - no_intra_emphasis
-      - fenced_code_blocks
-      - tables
-      - strikethrough
-      - superscript
-      - autolink
-      - hard_wrap
-      - with_toc_data
-      - smart
+
+
 
 kramdown:
   input: GFM
@@ -49,9 +34,6 @@ kramdown:
   syntax_highlighter: rouge
   
 
-# redcarpet:
-#    extensions: ["smart"]
-
 title: dongsamb.com
 url: http://dongsamb.com
 locale: ko_KR
@@ -63,3 +45,22 @@ author:
     twitter: dongsamb
     github: dongsam
     linkedin: dongsamb
+
+
+
+# markdown:     redcarpet
+
+# redcarpet:
+#   extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
+# redcarpet:
+#     extensions: 
+#       - no_intra_emphasis
+#       - fenced_code_blocks
+#       - tables
+#       - strikethrough
+#       - superscript
+#       - autolink
+#       - hard_wrap
+#       - with_toc_data
+#       - smart
+# highlighter: pygments
