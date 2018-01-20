@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ethereum 이더리움" 
-description: "이더리움 특징 및 설명"
+description: "이더리움 소개 및 특징"
 category: Documentation
 tags: [Ethereum, Blockchain, Bitcoin, ETH]
 ---
