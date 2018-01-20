@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ethash : Ethereum PoW Algorithm"
-description: "이더리움 특징 및 설명"
+description: "Ethereum PoW (Ethash) 알고리즘 비교 및 원리"
 category: Documentation
 tags: [Ethereum, Blockchain, Bitcoin, ETH]
 ---
